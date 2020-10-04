@@ -4,7 +4,8 @@
       return (int) ((time() - strtotime($date)) / 3600 / 24 / 365);
     }
     function cnxBD(){
-      return new PDO('mysql:host=localhost;dbname=cvtheque;charset=utf8', 'root', 'root');
+      //voir les variables d'environnement PHP
+      return new PDO('mysql:host=localhost;dbname=cvtheque;charset=utf8', 'root', 'root') || new PDO('mysql:host=localhost;dbname=cvtheque;charset=utf8', 'root', 'root');
     }
     function getFiliationByDemandeur($idDemandeur){
       try
