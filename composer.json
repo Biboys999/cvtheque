@@ -1,0 +1,12 @@
+{
+    "name": "biboys999/cvtheque",
+    "authors": [
+        {
+            "name": "Biboys999",
+            "email": "mohamedrayane.aboussaid@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2"
+    }
+}

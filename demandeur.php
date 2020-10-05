@@ -5,7 +5,7 @@
     }
     function cnxBD(){
       //voir les variables d'environnement PHP
-      return new PDO('mysql:host=localhost;dbname=cvtheque;charset=utf8', 'root', 'root') || new PDO('mysql:host=localhost;dbname=cvtheque;charset=utf8', 'root', 'root');
+      return new PDO('mysql:host=localhost;dbname=cvtheque;charset=utf8', 'root', 'root');
     }
     function getFiliationByDemandeur($idDemandeur){
       try
